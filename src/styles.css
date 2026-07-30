@@ -2,7 +2,7 @@
     --color-lighter: #626262;
     --foreground: #171717;
     --background: #f0f8ff;
-    
+
     --font: "Inter", Arial, Helvetica, sans-serif;
     --font-size: 1em;
 }
@@ -48,7 +48,7 @@ h2 {
 
 .heading-title {
     color: var(--color-lighter);
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 .about-paragraph {
@@ -72,5 +72,5 @@ h2 {
 
 .project-description {
     margin-top: 0;
-    color: var(--color-lighter)
+    color: var(--color-lighter);
 }
