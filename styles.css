@@ -1,0 +1,76 @@
+:root {
+    --color-lighter: #626262;
+    --foreground: #171717;
+    --background: #f0f8ff;
+    
+    --font: "Inter", Arial, Helvetica, sans-serif;
+    --font-size: 1em;
+}
+
+body {
+    font-family: var(--font);
+    font-size: var(--font-size);
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color: var(--foreground);
+    background-color: var(--background);
+
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 50px auto 0 auto;
+    max-width: 750px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+.my-name {
+    text-align: center;
+    margin: 0;
+}
+
+.inner-content {
+    padding: 20px;
+}
+
+.heading-title {
+    color: var(--color-lighter);
+    margin: 10px 0
+}
+
+.about-paragraph {
+    margin-bottom: 15px;
+}
+
+.project-container {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.project-title__label {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.project-description {
+    margin-top: 0;
+    color: var(--color-lighter)
+}
