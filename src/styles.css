@@ -27,6 +27,7 @@ body {
 main {
     margin: 50px auto 0 auto;
     max-width: 750px;
+    padding: 20px;
 }
 
 p {
@@ -37,14 +38,23 @@ h2 {
     margin: 5px 0;
 }
 
-.my-name {
-    text-align: center;
-    margin: 0;
+a {
+    color: blue;
+    text-decoration: none;
 }
 
-.inner-content {
-    padding: 20px;
+a:visited {
+    color: blue;
 }
+
+/* --- */
+
+.my-name {
+    text-align: center;
+    margin-top: 75px;
+}
+
+/* --- */
 
 .heading-title {
     color: var(--color-lighter);
@@ -54,6 +64,8 @@ h2 {
 .about-paragraph {
     margin-bottom: 15px;
 }
+
+/* --- */
 
 .project-container {
     margin-left: 25px;
@@ -73,4 +85,39 @@ h2 {
 .project-description {
     margin-top: 0;
     color: var(--color-lighter);
+}
+
+/* --- */
+
+.contact-list-element {
+    line-height: 1.3;
+}
+
+/* --- */
+
+.colourful-sandwich-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.colourful-sandwich-container > img {
+    height: 40px;
+    width: 40px;
+}
+
+.colourful-sandwich-container > p {
+    font-size: 0.8em;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text > p {
+    font-size: 0.9em;
+}
+
+.footer-my-name {
+    font-size: 1em;
+    font-weight: bold;
 }
