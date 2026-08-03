@@ -54,7 +54,7 @@ export const projects = [
     },
 ];
 
-export const contact = [
+export const contacts = [
     {
         title: "GitHub",
         link: "https://github.com/sirejamie",
@@ -64,7 +64,7 @@ export const contact = [
         link: "https://www.linkedin.com/in/jamiegattie",
     },
     {
-        resume: "Resume",
+        title: "Resume",
         link: "/files/Resume.pdf",
     },
 ];

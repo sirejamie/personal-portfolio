@@ -2,7 +2,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 
 import sandwich from "./assets/images/sandwich.png";
-import { projects } from "./constants/data";
+import { contacts, projects } from "./constants/data";
 
 function Header() {
     return (
@@ -76,19 +76,9 @@ function Contact() {
         <section>
             <h2 className="heading-title heading-contact">Contact</h2>
             <ul>
-                <li>
-                    <a href="https://github.com/sirejamie" target="_blank">
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/jamiegattie" target="_blank">
-                        LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="/files/Resume.pdf">Resume</a>
-                </li>
+                {contacts.map((contact) => 
+                    <li className="contact-list-element"><a href={contact.link} target="_blank">{contact.title}</a></li>
+                )}
             </ul>
         </section>
     );

@@ -47,10 +47,14 @@ a:visited {
     color: blue;
 }
 
+/* --- */
+
 .my-name {
     text-align: center;
-    margin: 0;
+    margin-top: 75px;
 }
+
+/* --- */
 
 .heading-title {
     color: var(--color-lighter);
@@ -60,6 +64,8 @@ a:visited {
 .about-paragraph {
     margin-bottom: 15px;
 }
+
+/* --- */
 
 .project-container {
     margin-left: 25px;
@@ -80,6 +86,14 @@ a:visited {
     margin-top: 0;
     color: var(--color-lighter);
 }
+
+/* --- */
+
+.contact-list-element {
+    line-height: 1.3;
+}
+
+/* --- */
 
 .colourful-sandwich-container {
     margin-top: 25px;
