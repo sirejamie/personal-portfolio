@@ -1,4 +1,8 @@
+import sandwich from "./assets/images/sandwich.png";
+
 export default function App() {
+    const year = new Date().getFullYear();
+
     return (
         <main>
             <h1 className="my-name">Jamie Gattie</h1>
@@ -8,17 +12,16 @@ export default function App() {
                     <p className="about-paragraph">
                         Hi! My name is Jamie and I am an aspiring software engineer. Well, maybe a
                         hardware engineer, or even a systems engineer, a computer engineer, systems
-                        architect, mechanical engineer, electrical engineer, etc. <b>Sigh</b>, I
-                        know, that's a lot of words and job titles but honestly, I truly don't know
-                        what I want to do. There's a lot of amazing things in technology and science
-                        that I find so interesting that I can't just select one thing and stick with
-                        it!
+                        architect, golf player, tennis star, blah, blah, blah. I know, that's a lot
+                        of words and job titles but in all honesty, I truly don't know what I want
+                        to do. There's just a lot of amazing things in this world that I find so
+                        interesting that I can't just select one thing and stick with it!
                     </p>
                     <p className="about-paragraph">
-                        But apart from that small introduction, I do love coding and design the
-                        most. My current area of focus is full-stack web development with interests
-                        in machine learning, systems programming, human-centered design, developer
-                        operations and cybersecurity.
+                        But apart from that small introduction, I do love coding and user-centric
+                        design the most. My current area of focus is honestly full-stack web
+                        development with interests in machine learning, systems programming, systems
+                        design, developer operations and cybersecurity.
                     </p>
                     <p className="about-paragraph">
                         Apart from technology, I've gotten into reading and researching random
@@ -105,8 +108,22 @@ export default function App() {
                                 LinkedIn
                             </a>
                         </li>
+                        <li>
+                            <a href="/files/Resume.pdf">Resume</a>
+                        </li>
                     </ul>
                 </section>
+                <footer>
+                    <div className="footer-text">
+                        <p className="footer-my-name">Jamie Gattie</p>
+                        <p>&copy; {year}</p>
+                    </div>
+
+                    <div className="colourful-sandwich-container">
+                        <img src={sandwich} alt="A colourful sandwich." />
+                        <p>(for you)</p>
+                    </div>
+                </footer>
             </div>
         </main>
     );

@@ -37,6 +37,15 @@ h2 {
     margin: 5px 0;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
 .my-name {
     text-align: center;
     margin: 0;
@@ -73,4 +82,31 @@ h2 {
 .project-description {
     margin-top: 0;
     color: var(--color-lighter);
+}
+
+.colourful-sandwich-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.colourful-sandwich-container > img {
+    height: 40px;
+    width: 40px;
+}
+
+.colourful-sandwich-container > p {
+    font-size: 0.8em;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text > p {
+    font-size: 0.9em;
+}
+
+.footer-my-name {
+    font-size: 1em;
+    font-weight: bold;
 }
