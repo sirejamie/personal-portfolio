@@ -1,4 +1,5 @@
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 import sandwich from "./assets/images/sandwich.png";
 import { projects } from "./constants/data";
@@ -132,6 +133,7 @@ export default function App() {
             <PortfolioPage />
 
             <SpeedInsights />
+            <Analytics />
         </>
     );
 }
