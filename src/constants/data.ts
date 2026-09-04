@@ -62,9 +62,5 @@ export const contacts = [
     {
         title: "LinkedIn",
         link: "https://www.linkedin.com/in/jamiegattie",
-    },
-    {
-        title: "Resume",
-        link: "/files/Resume.pdf",
-    },
+    }
 ];
